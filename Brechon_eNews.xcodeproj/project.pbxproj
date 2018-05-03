@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525FD39320955C3000129841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD39220955C3000129841 /* AppDelegate.swift */; };
+		525FD39820955C3000129841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FD39620955C3000129841 /* Main.storyboard */; };
+		525FD39A20955C3000129841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525FD39920955C3000129841 /* Assets.xcassets */; };
+		525FD39D20955C3000129841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FD39B20955C3000129841 /* LaunchScreen.storyboard */; };
+		525FD3A520955D0C00129841 /* BusinessTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3A420955D0C00129841 /* BusinessTableViewController.swift */; };
+		525FD3A720955D7700129841 /* SportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3A620955D7700129841 /* SportsTableViewController.swift */; };
+		525FD3A920955D8A00129841 /* ScienceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3A820955D8A00129841 /* ScienceTableViewController.swift */; };
+		525FD3AF20961D7E00129841 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3AE20961D7E00129841 /* Article.swift */; };
+		525FD3B12096222400129841 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3B02096222400129841 /* BusinessTableViewCell.swift */; };
+		525FD3B3209679E700129841 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3B2209679E700129841 /* AboutAppViewController.swift */; };
+		525FD3B520967B5F00129841 /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3B420967B5F00129841 /* SportsTableViewCell.swift */; };
+		525FD3B720967B8500129841 /* ScienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3B620967B8500129841 /* ScienceTableViewCell.swift */; };
+		525FD3B920968A5F00129841 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3B820968A5F00129841 /* BusinessDetailViewController.swift */; };
+		525FD3BB2096A84300129841 /* BusinessWebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3BA2096A84300129841 /* BusinessWebSiteViewController.swift */; };
+		525FD3BD2096AA0100129841 /* SportsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3BC2096AA0100129841 /* SportsDetailViewController.swift */; };
+		525FD3BF2096AD5A00129841 /* SportsWebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3BE2096AD5A00129841 /* SportsWebSiteViewController.swift */; };
+		525FD3C12096AE9700129841 /* ScienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD3C02096AE9700129841 /* ScienceDetailViewController.swift */; };
+		528556FA2096B3E500E8F86A /* ScienceWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528556F92096B3E500E8F86A /* ScienceWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		525FD38F20955C3000129841 /* Brechon_eNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brechon_eNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525FD39220955C3000129841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525FD39720955C3000129841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525FD39920955C3000129841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525FD39C20955C3000129841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525FD39E20955C3000129841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525FD3A420955D0C00129841 /* BusinessTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewController.swift; sourceTree = "<group>"; };
+		525FD3A620955D7700129841 /* SportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewController.swift; sourceTree = "<group>"; };
+		525FD3A820955D8A00129841 /* ScienceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceTableViewController.swift; sourceTree = "<group>"; };
+		525FD3AE20961D7E00129841 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		525FD3B02096222400129841 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		525FD3B2209679E700129841 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		525FD3B420967B5F00129841 /* SportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
+		525FD3B620967B8500129841 /* ScienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceTableViewCell.swift; sourceTree = "<group>"; };
+		525FD3B820968A5F00129841 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+		525FD3BA2096A84300129841 /* BusinessWebSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessWebSiteViewController.swift; sourceTree = "<group>"; };
+		525FD3BC2096AA0100129841 /* SportsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsDetailViewController.swift; sourceTree = "<group>"; };
+		525FD3BE2096AD5A00129841 /* SportsWebSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsWebSiteViewController.swift; sourceTree = "<group>"; };
+		525FD3C02096AE9700129841 /* ScienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDetailViewController.swift; sourceTree = "<group>"; };
+		528556F92096B3E500E8F86A /* ScienceWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525FD38C20955C3000129841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525FD38620955C3000129841 = {
+			isa = PBXGroup;
+			children = (
+				525FD39120955C3000129841 /* Brechon_eNews */,
+				525FD39020955C3000129841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525FD39020955C3000129841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525FD38F20955C3000129841 /* Brechon_eNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525FD39120955C3000129841 /* Brechon_eNews */ = {
+			isa = PBXGroup;
+			children = (
+				525FD39220955C3000129841 /* AppDelegate.swift */,
+				525FD39620955C3000129841 /* Main.storyboard */,
+				525FD3B2209679E700129841 /* AboutAppViewController.swift */,
+				528556F92096B3E500E8F86A /* ScienceWebViewController.swift */,
+				525FD3C02096AE9700129841 /* ScienceDetailViewController.swift */,
+				525FD3BC2096AA0100129841 /* SportsDetailViewController.swift */,
+				525FD3B820968A5F00129841 /* BusinessDetailViewController.swift */,
+				525FD3BA2096A84300129841 /* BusinessWebSiteViewController.swift */,
+				525FD3BE2096AD5A00129841 /* SportsWebSiteViewController.swift */,
+				525FD3B02096222400129841 /* BusinessTableViewCell.swift */,
+				525FD3A820955D8A00129841 /* ScienceTableViewController.swift */,
+				525FD3A620955D7700129841 /* SportsTableViewController.swift */,
+				525FD3B620967B8500129841 /* ScienceTableViewCell.swift */,
+				525FD3B420967B5F00129841 /* SportsTableViewCell.swift */,
+				525FD3A420955D0C00129841 /* BusinessTableViewController.swift */,
+				525FD3AE20961D7E00129841 /* Article.swift */,
+				525FD39920955C3000129841 /* Assets.xcassets */,
+				525FD39B20955C3000129841 /* LaunchScreen.storyboard */,
+				525FD39E20955C3000129841 /* Info.plist */,
+			);
+			path = Brechon_eNews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525FD38E20955C3000129841 /* Brechon_eNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525FD3A120955C3000129841 /* Build configuration list for PBXNativeTarget "Brechon_eNews" */;
+			buildPhases = (
+				525FD38B20955C3000129841 /* Sources */,
+				525FD38C20955C3000129841 /* Frameworks */,
+				525FD38D20955C3000129841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brechon_eNews;
+			productName = Brechon_eNews;
+			productReference = 525FD38F20955C3000129841 /* Brechon_eNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525FD38720955C3000129841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					525FD38E20955C3000129841 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 525FD38A20955C3000129841 /* Build configuration list for PBXProject "Brechon_eNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525FD38620955C3000129841;
+			productRefGroup = 525FD39020955C3000129841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525FD38E20955C3000129841 /* Brechon_eNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525FD38D20955C3000129841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525FD39D20955C3000129841 /* LaunchScreen.storyboard in Resources */,
+				525FD39A20955C3000129841 /* Assets.xcassets in Resources */,
+				525FD39820955C3000129841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525FD38B20955C3000129841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525FD3B3209679E700129841 /* AboutAppViewController.swift in Sources */,
+				525FD3B720967B8500129841 /* ScienceTableViewCell.swift in Sources */,
+				525FD3AF20961D7E00129841 /* Article.swift in Sources */,
+				525FD3B520967B5F00129841 /* SportsTableViewCell.swift in Sources */,
+				525FD3BB2096A84300129841 /* BusinessWebSiteViewController.swift in Sources */,
+				525FD3A920955D8A00129841 /* ScienceTableViewController.swift in Sources */,
+				525FD3A720955D7700129841 /* SportsTableViewController.swift in Sources */,
+				525FD3BF2096AD5A00129841 /* SportsWebSiteViewController.swift in Sources */,
+				525FD3C12096AE9700129841 /* ScienceDetailViewController.swift in Sources */,
+				528556FA2096B3E500E8F86A /* ScienceWebViewController.swift in Sources */,
+				525FD3A520955D0C00129841 /* BusinessTableViewController.swift in Sources */,
+				525FD3BD2096AA0100129841 /* SportsDetailViewController.swift in Sources */,
+				525FD3B12096222400129841 /* BusinessTableViewCell.swift in Sources */,
+				525FD39320955C3000129841 /* AppDelegate.swift in Sources */,
+				525FD3B920968A5F00129841 /* BusinessDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		525FD39620955C3000129841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525FD39720955C3000129841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525FD39B20955C3000129841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525FD39C20955C3000129841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525FD39F20955C3000129841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525FD3A020955C3000129841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525FD3A220955C3000129841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = Brechon_eNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs-brechon.Brechon-eNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525FD3A320955C3000129841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S224WD5FPF;
+				INFOPLIST_FILE = Brechon_eNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.niu.cs-brechon.Brechon-eNews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525FD38A20955C3000129841 /* Build configuration list for PBXProject "Brechon_eNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525FD39F20955C3000129841 /* Debug */,
+				525FD3A020955C3000129841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525FD3A120955C3000129841 /* Build configuration list for PBXNativeTarget "Brechon_eNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525FD3A220955C3000129841 /* Debug */,
+				525FD3A320955C3000129841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525FD38720955C3000129841 /* Project object */;
+}
